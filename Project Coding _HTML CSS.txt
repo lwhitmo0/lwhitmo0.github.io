@@ -1,0 +1,272 @@
+****************HTML PG1**********
+
+<HOME PAGE> HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Set metadata of the document -->
+	<meta charset="utf-8" />
+	<meta name="keywords"
+		content="Construction, technology, software, estimate, building" />
+	<title>OCBConTech &copy;</title>
+	
+<!-- Link to CSS files -->	
+	<link href="OCB_FORMATTING.CSS" rel="stylesheet" />
+	<link href="OCB_LAYOUT.CSS" rel="stylesheet" />
+	
+</head>
+
+<!-- Use sectioning, grouping, and text-level elements -->
+<body>
+<div class='content'>
+  <h1>OCB Construction Technology</h1>
+    <h2>About Us</h2>
+    <p><strong>OCBConTech</strong> develops software to scale and estimate construction projects using(<em>Green Building</em>)methods.</p>
+   <h2>What We Do</h2>
+ 
+ <!-- Include navigation list with hypertext links -->	
+ <nav>
+	<ol>
+      <li><a href="#OCBConTechApproach">Construction approaches and methodologies</a></li>
+      <li><a href="#OCBConTechExecs">Company executives’ experience and expertise</a></li>
+      <li><a href="#OCBConTechBenefits">Financial benefits of OCB construction technologies</a></li>
+    </ol>
+</nav>
+</div>    
+</body>
+ 
+<!-- Include character references -  Below and in title element -->
+<div class="footer">
+<footer> OCBConTech &#8226; South Carolina </footer>
+</div>
+
+</html>
+
+
+-*********************HTML pg 2*************************
+
+<Construction approaches and methodologies> HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="keywords"
+		content="Construction, technology, software, approaches, methodologies" />
+	<title>Construction approaches and methodologies</title>
+	
+	<link href="OCB_FORMATTING.CSS" rel="stylesheet" />
+	<link href="OCB_LAYOUT.CSS" rel="stylesheet" />
+	
+</head>
+
+<!-- Include inline images -->
+<header>
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDvjv4oj6aoKph8yFMhF5nnf0J3A5XXOoIsA&s" alt="Construction Tech"/>
+</header>
+<body>
+  <h1>Approaches and Methods
+    <h2>Approaches</h2>
+    <p><strong>OCBConTech</strong> develops software to scale and estimate construction projects in collaboration with stake holders and project owners.</p>
+  
+  <h2>Methods</h2>
+ 	<ol>
+      <li>Agility</li>
+      <li>Innovation</li>
+      <li>Trend Establishment.</li>
+    </ol>
+</body>
+<div class="footer">
+<footer> OCBConTech &#8226; South Carolina </footer>
+</div>
+</html>
+
+
+-*********************HTML pg 3*************************
+
+<Company executives’ experience and expertise> HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="keywords"
+		content="Construction, technology, software, executives, expertise" />
+	<title>Company executives’ experience and expertise</title>
+	
+	<link href="OCB_FORMATTING.CSS" rel="stylesheet" />
+	<link href="OCB_LAYOUT.CSS" rel="stylesheet" />
+	
+</head>
+<body>
+  <h1>Executives
+    <h2>President</h2>
+    <p> OCBConTech President <strong>Leona Whitmore</strong> has over 10 years in software development experience and a wide network of construction consultants.</p>
+</body>
+<div class="footer">
+<footer> OCBConTech &#8226; South Carolina </footer>
+</div>
+</html>
+
+  
+
+
+************** CSS PG 1*****************************
+OCB_FORMATTING.CSS
+
+
+/* Format lists, background and text */
+ol {
+list-style-type: disc;
+}
+
+header {
+  color: white
+  background-color: brown;
+ 
+}
+body {
+  color: white;
+  background-color: black
+
+
+h1, h2 {
+  color: white;
+  background-color: brown;
+  font-family: 'Arial Black', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+p {
+  color: white;
+  background-color: brown;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+}
+
+li {
+  color: white;
+  background-color: black
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  display: inline-block;
+  width: 80px;  
+}
+
+
+footer {
+  color: white
+  background-color: brown;
+  text-align: center;
+  height: 100px;
+}
+
+/* Use pseudo classes/elements and use pseudo classes for hypertext links */
+li a: visted {
+	color:red;
+}
+
+/* Use contextual/attribute selectors */
+.content {
+font-size: 20px;
+}
+
+
+
+************** CSS PG2 ***********************
+OCB_LAYOUT.CSS
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial Black', sans-serif;
+}
+
+/* Use both block and floating elements, Create a floated layout*/
+img {
+  display: block;
+  float: right
+  margin: 10px auto;
+  height: auto;
+  width: auto;
+}
+
+ol {
+  text-align: center;
+  display: inline-block;
+}
+
+h1, h2 {
+  font-size: 20px;
+}
+ /* Create a grid layout */
+nav {
+   display:in-line grid;
+   float:left;
+   position: absolute;
+}
+
+/* Experiment with relative and absolute positioning */
+.footer {
+  padding: 60px 0px;
+  font-size:12px;
+  margin-bottom: 0;
+  margin-left: 20px;
+  position: relative;
+}
+
+/*Handle overflow */
+main {
+  overflow: auto;
+  }
+  
+ /* Implement responsive design to different screen widths using @media and flex/flexbox*/
+@media only screen and (max-width: 480px) {
+  .page-title {
+    width: 270px;
+  }
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+.page-title, .page-description {
+  float: left;
+    width: 20em;
+}
+
+
+
+<link rel="stylesheet" type="text/css" href="./styles.css"  />
+./OCB CSS_Page 1 OCB_FORMATTING.css
+
+<link rel="stylesheet" type="text/css" href="./OCB CSS_Page 1 OCB_FORMATTING.css"  />
+
+
+<link rel="stylesheet" type="text/css" href="./OCB CSS_Page 2 OCB_LAYOUT.css"  />
+
+
+<link rel="stylesheet" type="text/css" href="./OCB CSS_Page 1 OCB_FORMATTING.css"  />
+	<link rel="stylesheet" type="text/css" href="./OCB CSS_Page 2 OCB_LAYOUT.css"  />
+	
+	
+	<link rel="stylesheet" href="style.css">
+	
+	<link rel="stylesheet" href="./style.css">
+	
+	
+	
+	"C:\Users\OCB LLC\Desktop\CPCC\Spring 2024\WEB110-N801\CSS _PAGE 2 OCB_LAYOUT.css"
+	
+	<link rel="stylesheet" type="text/css" href="C:\Users\OCB LLC\Desktop\CPCC\Spring 2024\WEB110-N801\CSS _PAGE 1 OCB_FORMATTING.css"  />
+	
+	<link rel="stylesheet" type="text/css" href="C:\Users\OCB LLC\Desktop\CPCC\Spring 2024\WEB110-N801\CSS _PAGE 2 OCB_LAYOUT.css"  />
+	
+
+<link rel="stylesheet" href="./main.css">
+	
+
+
+<!-- Link to CSS files -->	
+	<link href="CSS _PAGE 1 OCB_FORMATTING.css" rel="stylesheet" />
+	<link href="CSS _PAGE 2 OCB_LAYOUT.css" rel="stylesheet" />	

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="keywords"
+		content="Construction, technology, software, approaches, methodologies" />
+	<title>OCBConTech &copy; Construction approaches and methodologies</title>
+	
+	<link href="CSS _PAGE 1 OCB_FORMATTING.css" rel="stylesheet" />
+	<link href="CSS _PAGE 2 OCB_LAYOUT.css" rel="stylesheet" />
+	
+</head>
+
+<!-- Include inline images -->
+<header>
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDvjv4oj6aoKph8yFMhF5nnf0J3A5XXOoIsA&s" alt="Construction Tech"/>
+</header>
+<body>
+  <h1>Approaches and Methods
+    <h2>Approaches</h2>
+    <p><strong>OCBConTech &copy;</strong> develops software to scale and estimate construction projects in collaboration with stake holders and project owners.</p>
+  
+  <h2>Methods</h2>
+ 	<ol>
+      <li>Agility</li>
+      <li>Innovation</li>
+      <li>Trend Establishment.</li>
+    </ol>
+</body>
+<div class="footer">
+<footer> OCBConTech &copy; &#8226; South Carolina </footer>
+</div>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Set metadata of the document -->
+	<meta charset="utf-8" />
+	<meta name="keywords"
+		content="Construction, technology, software, estimate, building" />
+	<title>OCBConTech &copy;</title>
+	
+<!-- Link to CSS files -->	
+	<link href="CSS _PAGE 1 OCB_FORMATTING.css" rel="stylesheet" />
+	<link href="CSS _PAGE 2 OCB_LAYOUT.css" rel="stylesheet" />	
+</head>
+
+<!-- Use sectioning, grouping, and text-level elements -->
+<body>
+<div class='content'>
+  <h1>OCB Construction Technology</h1>
+    <h2>About Us</h2>
+    <p><strong>OCBConTech</strong> develops software to scale and estimate construction projects using <em>Green Building</em> methods.</p>
+   <h2>What We Do</h2>
+ 
+ <!-- Include navigation list with hypertext links -->	
+ <nav>
+	<ol>
+      <li><a href="#OCBConTechApproach">Construction approaches and methodologies</a></li>
+      <li><a href="#OCBConTechExecs">Company executives’ experience and expertise</a></li>
+      <li><a href="#OCBConTechBenefits">Financial benefits of OCB construction technologies</a></li>
+    </ol>
+</nav>
+</div>    
+</body>
+ 
+<!-- Include character references -  Below and in title element -->
+<div class="footer">
+<footer> OCBConTech &#8226; South Carolina </footer>
+</div>
+
+</html>

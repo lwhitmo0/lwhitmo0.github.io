@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="keywords"
+		content="Construction, technology, software, executives, expertise" />
+	<title>OCBConTech &copy; Company executives’ experience and expertise</title>
+	
+	<link href="CSS _PAGE 1 OCB_FORMATTING.css" rel="stylesheet" />
+	<link href="CSS _PAGE 2 OCB_LAYOUT.css" rel="stylesheet" />
+	
+</head>
+<body>
+  <h1>Executives
+    <h2>President</h2>
+    <p> OCBConTech &copy; President <strong>Leona Whitmore</strong> has over 10 years in software development experience and a wide network of construction consultants.</p>
+</body>
+<div class="footer">
+<footer> OCBConTech &copy; &#8226; South Carolina </footer>
+</div>
+</html>
