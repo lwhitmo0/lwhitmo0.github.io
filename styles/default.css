@@ -77,10 +77,12 @@ h2 {
   
 }
 p {
+  position: center;
   color: #ffdab9;
   text-align: center;
   line-height: 3em;
 }
 div {
+   
    text-align: center;
 }
