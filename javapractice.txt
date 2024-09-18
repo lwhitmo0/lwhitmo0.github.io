@@ -1,0 +1,235 @@
+JS code practice 
+
+
+
+
+
+
+//create js array
+let newYearsResolutions = ['Keep a journal', 'Take a falconry class', 'Learn to juggle'];
+
+console.log(newYearsResolutions);
+// output = [ 'Keep a journal', 'Take a falconry class', 'Learn to juggle' ]
+
+
+
+//create function define variables and add if statement to check if two values are the same
+const logVisibleLightWaves = () => {
+  let lightWaves = 'Moonlight';
+	let region = 'The Arctic';
+  // Add if statement here:
+  if (region === 'The Arctic'){
+    let lightWaves = 'Northern Lights'
+    console.log(lightWaves)
+  }
+  console.log(lightWaves);
+};
+
+logVisibleLightWaves();
+//output = Northern Lights Moonlight
+
+
+
+const logVisibleLightWaves = () =>{
+  const lightWaves = 'Moonlight';
+  console.log(lightWaves);
+}
+console.log(logVisibleLightWaves());
+//output = Moonlight undefined
+
+
+
+//declare global variables
+const satellite = 'The Moon';
+const galaxy = 'The Milky Way';
+const stars = 'North Star';
+//declare function
+const callMyNightSky = () => {
+  return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy;
+}
+//log value of function
+console.log(callMyNightSky())
+//output = Night Sky: The Moon, North Star, and The Milky Way
+
+
+//declare constant
+const city = ('New York City')
+//write function, declare variables in function, return statement in function
+const logCitySkyline = () => {
+  let city = 'New York City';
+  let skyscraper = 'Empire State Building';
+  return 'The stars over the ' + skyscraper + ' in ' + city;
+}
+//log value of function
+console.log(logCitySkyline());
+//output = The stars over the Empire State Building in New York City
+
+
+
+// input the Kelvin temperature value
+const kelvin = 0;
+// celsius is kelvin - 273 degrees
+const celsius = kelvin - 273;
+// calculation for fahrenheit, total will be rounded later
+var fahrenheit = celsius * (9/5) + 32;
+//rounding fahrenheit to nearest integer
+fahrenheit = Math.floor(fahrenheit);
+//log temp in fahrenheit to console
+console.log (`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+// output = The temperature is -460 degrees Fahrenheit.
+
+//input my age to determine dog years
+const myage = 40;
+//make my early years a changeable variable at 2
+var earlyYears = 2;
+//multiply early years by 10.5
+earlyYears *= 10.5;
+//accounted for first two years 
+var laterYears = myage - 2;
+//determine dog years by muliplying by 4
+laterYears *= 4;
+console.log (earlyYears, laterYears)
+//My age in dog years
+var myAgeInDogYears = (earlyYears + laterYears);
+//name variable lowercase
+myName = 'Le Whit';
+//output sentence with my name and both ages
+console.log (`My name is ${myName}. I am ${myage} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
+
+console.log("Hi Leona!");
+// output "Hi Leona!
+
+let name = "Leona";
+console.log("Hello, " + name + "!"); 
+
+// output "Hello, Leona!"
+
+
+var x = 10;
+var y = 15;
+console.log(x + y);
+// output 25
+
+let myname = "Me duh!";
+let phrase ="Who's the greatest?"
+console.log(greeting+ " " + myname);
+//output Who's the greatest? Me duh!
+
+myNumber = 150;
+
+myString = 'hello';
+
+myBool = true;
+
+let num = 40;
+let result;
+if (num > 20) {
+    result = "Greater than 20";
+} else {
+    result = "Less than 20";
+}
+console.log(result);
+
+// Define the 'makeSandwich()' function
+function makeSandwich(topping1, topping2) {
+  sandwich = 'bread' + ','
+  sandwich += topping1 + ','
+  sandwich += topping2 + ','
+  sandwich += 'bread'
+  return sandwich
+}
+
+// Call the function and store the returned value in 'result'
+result = makeSandwich('peanut butter', 'jelly')
+
+
+The selected code checks if the value of the mode variable is 'public'. If it is, the showDetails() function is called, which likely displays post details. If mode is not 'public', the hideDetails() function is called, which likely hides the post details.
+
+if (mode === 'public') {
+  // Call a function here to show the post details
+showDetails()
+} else {
+  // Call a function here to hide the post details
+hideDetails()
+}
+
+
+myList = ['apple', 'banana', 'pear']
+
+myList.push('orange') // the .push command is JavaScript's implementation for appending an item to the end of a list
+
+// now, myList == ['apple', 'banana', 'pear', 'orange']
+
+myList = ['apple', 'banana', 'pear']
+
+myList.splice(1, 0, 'mango') // make 'mango' the second item in the list
+
+// now, myList = ['apple', 'mango', 'banana', 'pear']
+
+
+// Build a list
+comicStrip = ['Codey sees the trail', 'Codey starts the hike', 'Codey is halfway','Codey reaches the finish']
+
+// select the 4th item from the list
+// and save it to the variable selection
+
+selection = comicStrip[3]
+
+
+for (i = 0; i < 10; i++) {
+  placeTile('mint')
+  placeTile('orange')
+  placeTile('mint')
+}
+let i = 0;
+while (i < 10) {
+  placeTile('mint')
+  placeTile('orange')
+  placeTile('mint')
+  i++
+}
+
+// Define color variables:
+red = [0, 100, 63];
+orange = [40, 100, 60];
+green = [75, 100, 40];
+blue = [196, 77, 55];
+purple = [280, 50, 60];
+letterColors = [red, orange, green, blue, purple];
+
+// This variable controls the smallest distance at which a mouse will make the dots react
+mouseResponseThreshold = 20;
+
+// This variable controls how strongly the dots will try to return to their starting position
+friction = 0.5;
+
+// This variable controls how much the dots will rotate when interacting
+rotationForce = 0.003;
+
+message = 'Change the physics!';
+
+drawName(message, letterColors);
+bounceBubbles();
+
+let weather = "spring";
+let clothingChoice = "";
+
+if (weather === "spring") {
+  clothingChoice = "Put on rain boots.";
+} else if (weather === "summer") {
+  clothingChoice = "Make sure to take your sunscreen.";
+} else if (weather === "fall") {
+  clothingChoice = "Wear a light jacket.";
+} else if (weather === 'winter') {
+  clothingChoice = "Wear a heavy coat.";
+} else {
+  console.log('Invalid weather type.');
+};
+console.log(clothingChoice);
+
+
+https://jsfiddle.net/lwhitmo0/urz6da74/11/#&togetherjs=gg5Nl50V4e
+
+https://jsfiddle.net/lwhitmo0/urz6da74/11/#&togetherjs=gg5Nl50V4e
+
+<script async src="//jsfiddle.net/lwhitmo0/urz6da74/11/embed/"></script>
